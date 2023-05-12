@@ -8,12 +8,15 @@ przed przystapieniem do prac trzeba wejsc do katalogu server
 `cd server`
 
 <h3>1. Struktura aplikacji</h3>
+
 [Upload server/src/App.js]
+
 ![Struktura folderu](images/struktura.jpg)
 
 ![Działanie aplikacji](images/app.jpg)
 
 <h3>2. Dockerfile</h3>
+
 [Upload server/dockerfile]
 
 <h3>3. Komendy</h3>
