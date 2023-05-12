@@ -37,6 +37,15 @@ function App() {
     }
   }, [timezone]);
 
+  // sekcja logów
+  const PORT = process.env.PORT || 80;
+  const CURRENT_TIME = currentTime;
+  console.log(
+    `Autor: Michał Galant` +
+      `Aplikacja nasłuchuje na porcie ${PORT}` +
+      `Start: ${CURRENT_TIME}`
+  );
+
   // wyświetlenie wyników
   return (
     <div className="App">
