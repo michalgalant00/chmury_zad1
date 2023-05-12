@@ -2,6 +2,8 @@ import "./App.css";
 
 import React, { useEffect, useState } from "react";
 
+console.log("test komunikat prosze dzialaj");
+
 function App() {
   const [clientIP, setClientIp] = useState(null);
   const [timezone, setTimezone] = useState(null);
