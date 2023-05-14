@@ -12,6 +12,8 @@ Oraz pobrać obrazy potrzebne do budowania:
 
 <h3>1. Struktura aplikacji</h3>
 
+Plik server/src/App.js
+
 ```javascript
 import "./App.css";
 
@@ -76,8 +78,10 @@ function App() {
 export default App;
 ```
 
+Struktura folderu
 ![Struktura folderu](images/struktura.png)
 
+Działanie aplikacji
 ![Działanie aplikacji](images/app.png)
 
 <h3>2. Dockerfile</h3>
